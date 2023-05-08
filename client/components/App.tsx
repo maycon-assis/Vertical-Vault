@@ -1,11 +1,13 @@
-import Home from './Home'
-import Navbar from './Navbar'
+import Landing from './Landing'
+import { Routes, Route } from 'react-router-dom'
+import Main from './Main'
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <Routes>
+      <Route path="/" element={<Landing />} />
+      <Route path="/main" element={<Main />} />
+    </Routes>
   )
 }
 
