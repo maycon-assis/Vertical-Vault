@@ -2,7 +2,7 @@ import Home from './Home'
 
 const App = () => {
   return (
-    <div className="flex flex-col h-screen bg-gray-300 items-center">
+    <div className="flex bg-gray-300 justify-center items-center h-screen">
       <Home />
     </div>
   )
