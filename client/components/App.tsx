@@ -1,10 +1,13 @@
-import Home from './Home'
+import Landing from './Landing'
+import { Routes, Route } from 'react-router-dom'
+import Main from './Main'
 
 const App = () => {
   return (
-    <div className="flex bg-gray-300 justify-center items-center h-screen">
-      <Home />
-    </div>
+    <Routes>
+      <Route path="/" element={<Landing />} />
+      <Route path="/main" element={<Main />} />
+    </Routes>
   )
 }
 
