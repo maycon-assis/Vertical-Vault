@@ -1,7 +1,5 @@
-import React from 'react'
-
 function Main() {
-  return <div>Hello you made it to main</div>
+  return <div className="h-sreen w-screen bg-gray-300">Hello</div>
 }
 
 export default Main
